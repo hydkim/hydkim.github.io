@@ -1,0 +1,41 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  title: "Dongwook Kim"
+  site-url: https://hydkim.github.io
+  description: "Climate Risk"
+  open-graph:
+    locale: en_US
+  google-analytics: G-SJKHYT0BV6
+  favicon: _assets/img/favicon.ico
+  search: false
+
+  navbar:
+    right:
+      - text: "CV"
+        href: https://drive.google.com/file/d/1GKv3MhqmYGyU7q_EbZr4LkOPOCQ6y8gv/view?usp=sharing
+      - icon: github
+        href: https://github.com/hydkim
+      - text: "<i class='ai ai-google-scholar ai-lg'></i>"
+        href: https://scholar.google.com/citations?hl=en&user=VR9cB8EAAAAJ&view_op=list_works&authuser=1&sortby=pubdate
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dongwookkimwater
+      - icon: envelope
+        href: mailto:dk71@rice.edu
+
+  page-footer:
+    left: |
+      © 2026 Dongwook Kim | [Source on GitHub](https://github.com/hydkim/hydkim.github.io)
+
+format:
+  html:
+    theme: cosmo
+    css: _assets/css/styles.css
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
