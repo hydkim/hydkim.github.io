@@ -7,7 +7,7 @@ comments: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](_assets/img/1.png){width=80% style="border-radius: 50%; border: 3px solid #00205B; margin: auto; display: block;"}
+![](/_assets/img/1.png){width=80% style="border-radius: 50%; border: 3px solid #00205B; margin: auto; display: block;"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
