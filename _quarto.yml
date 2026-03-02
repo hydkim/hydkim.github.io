@@ -10,7 +10,7 @@ website:
   open-graph:
     locale: en_US
   google-analytics: G-SJKHYT0BV6
-  favicon: _assets/img/favicon.ico
+  favicon: /_assets/img/favicon.ico
   search: false
 
   navbar:
